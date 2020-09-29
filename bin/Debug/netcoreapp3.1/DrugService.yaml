@@ -1,16 +1,16 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: drugserdeployment
+  name: drugserdeploy
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: MailOrderPharmacy_DrugService
+      app: MailOrderPharmacyDrugService
   template:
     metadata:
       labels:
-        app: MailOrderPharmacy_DrugService
+        app: MailOrderPharmacyDrugService
     spec:
       containers:
       - name: drugrepos
@@ -24,10 +24,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mailorderpharmacy_drugservice
+  name: mailorderpharmacydrugservice
 spec:
   type: LoadBalancer
   ports:
   - port: 80
   selector:
-    app: MailOrderPharmacy_DrugService
+    app: MailOrderPharmacyDrugService
