@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: drugrepos
-        image: drugdocker.azurecr.io/drugrepos:latest
+        image: mailorderpharmacycr.azurecr.io/drugrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
