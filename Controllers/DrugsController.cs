@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using MailOrderPharmacy_DrugService.Repository;
+using MailOrderPharmacyDrugService.Repository;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
-namespace MailOrderPharmacy_DrugService.Controllers
+namespace MailOrderPharmacyDrugService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -16,8 +16,8 @@ namespace MailOrderPharmacy_DrugService.Controllers
     public class DrugsController : ControllerBase
     {
         readonly log4net.ILog _log4net;
-        IDrug_Repository _drug;
-        public  DrugsController(IDrug_Repository drug)
+        IDrugRepository _drug;
+        public  DrugsController(IDrugRepository drug)
         {
             _drug = drug;
             _log4net = log4net.LogManager.GetLogger(typeof(DrugsController));

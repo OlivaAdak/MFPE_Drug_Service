@@ -6627,9 +6627,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oliva\\OneDrive\\Desktop\\MailOrder\\MailOrder_Pharmacy\\Drug API\\MailOrderPharmacy_DrugService.csproj",
-      "projectName": "MailOrderPharmacy_DrugService",
-      "projectPath": "C:\\Users\\oliva\\OneDrive\\Desktop\\MailOrder\\MailOrder_Pharmacy\\Drug API\\MailOrderPharmacy_DrugService.csproj",
+      "projectUniqueName": "C:\\Users\\oliva\\OneDrive\\Desktop\\MailOrder\\MailOrder_Pharmacy\\Drug API\\MailOrderPharmacyDrugService.csproj",
+      "projectName": "MailOrderPharmacyDrugService",
+      "projectPath": "C:\\Users\\oliva\\OneDrive\\Desktop\\MailOrder\\MailOrder_Pharmacy\\Drug API\\MailOrderPharmacyDrugService.csproj",
       "packagesPath": "C:\\Users\\oliva\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\oliva\\OneDrive\\Desktop\\MailOrder\\MailOrder_Pharmacy\\Drug API\\obj\\",
       "projectStyle": "PackageReference",

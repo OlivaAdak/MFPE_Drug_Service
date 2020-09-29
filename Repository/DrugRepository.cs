@@ -1,13 +1,13 @@
-﻿using MailOrderPharmacy_DrugService.Controllers;
-using MailOrderPharmacy_DrugService.Models;
+﻿using MailOrderPharmacyDrugService.Controllers;
+using MailOrderPharmacyDrugService.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace MailOrderPharmacy_DrugService.Repository
+namespace MailOrderPharmacyDrugService.Repository
 {
-    public class Drug_Repository : IDrug_Repository
+    public class DrugRepository : IDrugRepository
     {
 
         public static List<DrugDetails> ls = new List<DrugDetails>
@@ -135,7 +135,7 @@ namespace MailOrderPharmacy_DrugService.Repository
             
             List<DrugLocation> item = new List<DrugLocation>();
             DrugDetails drug = new DrugDetails();
-            var obj1 = Drug_Repository.ls;
+            var obj1 = DrugRepository.ls;
           
             for(int i=0; i<ls.Count; i++)
             {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using MailOrderPharmacy_DrugService.Repository;
+using MailOrderPharmacyDrugService.Repository;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-namespace MailOrderPharmacy_DrugService
+namespace MailOrderPharmacyDrugService
 {
     public class Startup
     {
@@ -36,7 +36,7 @@ namespace MailOrderPharmacy_DrugService
                     c.SwaggerDoc("v1", new OpenApiInfo { Title = "DRUG API", Version = "v1" });
                 });
             }
-            services.AddScoped<IDrug_Repository, Drug_Repository>();
+            services.AddScoped<IDrugRepository, DrugRepository>();
             services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
                 .AddJwtBearer(options =>
                 {

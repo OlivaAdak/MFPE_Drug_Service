@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b75FyixbqtWdCIjM4KmPBzXhiBAQQGffHR8IE+uylYpCng5qi4+ggk+LrEG52gb23yEmyqRJkduIJNwTjsAnAQ==",
+  "dgSpecHash": "UONr1aL1TVgHdQqaSCbsW0LMqJC101wRA1RoRLCydNYAPi3brgnWUjxlslZ3CFi+uwAbATc2Z8wx9V5yLq0ANA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\oliva\\OneDrive\\Desktop\\MailOrder\\MailOrder_Pharmacy\\Drug API\\MailOrderPharmacy_DrugService.csproj",
+  "projectFilePath": "C:\\Users\\oliva\\OneDrive\\Desktop\\MailOrder\\MailOrder_Pharmacy\\Drug API\\MailOrderPharmacyDrugService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\oliva\\.nuget\\packages\\log4net\\2.0.8\\log4net.2.0.8.nupkg.sha512",
     "C:\\Users\\oliva\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
